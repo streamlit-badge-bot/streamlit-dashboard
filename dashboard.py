@@ -80,6 +80,7 @@ else:
 @st.cache
 def load_age_data():
     data = pd.read_csv('./data_tables/sed17-sr-tab027.csv')
+    data.drop(['Median age at doctorate (years)a', 'All ages'], axis='columns', inplace=True)
     data = data.set_index('Broad field of study and demographic characteristic')
     return data
 age = load_age_data()
