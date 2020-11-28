@@ -1,1 +1,1 @@
-# streamlit-dashboard
+# streamlit-dashboard [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/fanyang44/streamlit-dashboard/main/dashboard.py)
